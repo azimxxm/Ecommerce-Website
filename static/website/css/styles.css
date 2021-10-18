@@ -110,8 +110,9 @@ li {
   justify-content: space-between;
 }
 
-.logo h1 {
-  font-size: 2.5rem;
+
+.logo a .logopng{
+  width: 200px;
 }
 
 .nav-list {

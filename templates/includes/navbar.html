@@ -1,13 +1,16 @@
+{% load static %}
 <nav class="nav">
     <div class="navigation container">
         <div class="logo">
-            <a href="{% url 'home' %}"><h1>Codevo</h1></a>
+            <a href="{% url 'home' %}"><img src="{% static 'website/images/logo.png' %}" alt="OnsonSavdo.uz"
+                    class="logopng"></a>
         </div>
 
         <div class="menu">
             <div class="top-nav">
                 <div class="logo">
-                    <h1>Codevo</h1>
+                    <a href="{% url 'home' %}"><img src="{% static 'website/images/logo.png' %}" alt="OnsonSavdo.uz"
+                            class="logopng"></a>
                 </div>
                 <div class="close">
                     <i class="bx bx-x"></i>
@@ -16,27 +19,27 @@
 
             <ul class="nav-list">
                 <li class="nav-item">
-                    <a href="{% url 'home' %}" class="nav-link">Home</a>
+                    <a href="{% url 'home' %}" class="nav-link">Asosiy</a>
                 </li>
                 <li class="nav-item">
-                    <a href="{% url 'product' %}" class="nav-link">Products</a>
+                    <a href="{% url 'product' %}" class="nav-link">Mahsulotlar</a>
                 </li>
                 <li class="nav-item">
-                    <a href="{% url 'about' %}" class="nav-link">Products -Details</a>
+                    <a href="{% url 'about' %}" class="nav-link">Biz haqimizda</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="{% url 'contact' %}" class="nav-link">Biz bilan bog'lanish</a>
                 </li>
                 <li class="nav-item">
-                    <a href="{% url 'card' %}" class="nav-link">Account</a>
+                    <a href="{% url 'accaunt' %}" class="nav-link">Account</a>
                 </li>
                 <li class="nav-item">
-                    <a href="cart.html" class="nav-link icon"><i class="bx bx-shopping-bag"></i></a>
+                    <a href="#" class="nav-link icon"><i class="bx bx-shopping-bag"></i></a>
                 </li>
             </ul>
         </div>
 
-        <a href="cart.html" class="cart-icon">
+        <a href="#" class="cart-icon">
             <i class="bx bx-shopping-bag"></i>
         </a>
 

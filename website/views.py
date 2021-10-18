@@ -9,5 +9,11 @@ def product(request):
 def about(request):
     return render(request, 'home/about.html')
 
+def contact(request):
+    return render(request, 'home/contact.html')
+
+def accaunt(request):
+    return render(request, 'home/accaunt.html')
+
 def card(request):
     return render(request, 'home/card.html')
